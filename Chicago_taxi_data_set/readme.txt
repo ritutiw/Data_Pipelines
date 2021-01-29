@@ -1,6 +1,6 @@
 First Part:
 
-In this Repo we are going Chicago_taxi_Datatset and design a data ingestion solution for a smart city platform.The aim of the platform is to help the city better understand and predict traffic patterns and toll revenues. A secondary role is to track and identify stolen vehicles. The data will be consumed by analysts and will be made available to other agencies and 3rd parties working with the city.
+In this Repo we are going to use Chicago_taxi_Datatset and design a data ingestion solution for a smart city platform.The aim of the platform is to help the city better understand and predict traffic patterns and toll revenues. A secondary role is to track and identify stolen vehicles. The data will be consumed by analysts and will be made available to other agencies and 3rd parties working with the city.
 You will be ingesting the following data sources:
 1.	Road toll data which is contained in a PostgreSQL database on infrastructure outside of your organization’s. You receive an initial extract of data followed by periodic deltas contained in zipped CSV files. The extracts are loaded into a Google Cloud Storage Bucket for which you have a service account with read-only access.
 2.	Weight sensors on a toll bridge which are controlled by a partner company. The data is pushed to your solution periodically. You are allowed to arrange with the partner company how the data will be pushed to your solution and at what frequency.
